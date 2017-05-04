@@ -1,0 +1,33 @@
+html {
+	background: url("back.jpg") top left/cover no-repeat;
+	min-height: 100%;
+	display: flex;
+}
+body {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.clock {
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	border: 10px solid #fff;
+	position: relative;
+}
+#seconds, #minutes, #hours {
+	position: absolute;
+	top: 75px;
+	left: 75px;
+	height: 3px;
+	width: 65px;
+	background-color: #000;
+	transform-origin: 0%;
+}
+#hours {
+	background-color: red;
+}
+#minutes {
+	background-color: yellow;
+}
